@@ -6,7 +6,7 @@ import './index.css'
 
 function App() {
   return (
-    <div className="background-gradient">
+    <div className="background-gradient px-9">
       <AnimatedCursor innerSize={15}
         outerSize={8}
         color='191,240,152'

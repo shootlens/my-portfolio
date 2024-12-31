@@ -12,7 +12,7 @@ const Header = () => {
                     delay: 0.3
                 }}
             >
-                
+
                 <div className="flex items-center justify-between max-w-[94rem] mx-auto py-9 flex-wrap">
                     <div>
                         <div className="text-xl text-white font-bold cursor-pointer">{'<Raghavendra />'}</div>
@@ -32,7 +32,7 @@ const Header = () => {
                             repeat={Infinity}
                         />
                     </div>
-                    <div className="flex items-center space-x-20">
+                    <div className="md:flex items-center space-x-20 hidden" >
                         <div className="text-xl text-white font-medium cursor-pointer">Home</div>
                         <div className="text-xl text-white font-medium cursor-pointer">About</div>
                         <div className="text-xl text-white font-medium cursor-pointer">Projects</div>
