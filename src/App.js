@@ -3,10 +3,11 @@ import './App.css';
 import Header from './components/header';
 import HeroSection from './components/hero-section';
 import './index.css'
+import AboutSection from './components/about-section';
 
 function App() {
   return (
-    <div className="background-gradient px-9">
+    <div className="background-gradient px-9 min-h-[100vh]">
       <AnimatedCursor innerSize={15}
         outerSize={8}
         color='191,240,152'
@@ -16,6 +17,7 @@ function App() {
       />
       <Header />
       <HeroSection />
+      <AboutSection />
     </div>
   );
 }
